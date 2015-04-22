@@ -1,0 +1,67 @@
+@import "css/main.css";
+
+#show_nav{
+		position:relative;
+		float:right;
+		margin-top:-10%;
+		width: 50px;
+		height: 50px;
+		display:block;
+		background: #fff url(img/nav_icon.png);
+		margin-right: 5%;
+		border-radius: 10px;	
+		display:none;		
+}
+#close_nav{
+		position:absolute;
+		float:right;
+		width: 15px;
+		height: 15px;
+		background: #cc00ee url(img/close_icon.png);
+		margin-left: 38%;
+		border-radius: 5px;
+}
+.show_flexslider{
+	width: 50px;
+	height: 50px;
+	background: #fff url(img/nav_icon.png);
+	position:absolute;
+	left:80%;
+	top:3%;	
+	display:none;	
+}
+.close_flexslider{
+	width: 15px;
+	height: 15px;
+	background: #cc00ee url(img/close_icon.png);
+	float:right;
+	position:relative;
+	margin-bottom:-10%;
+	
+}
+
+@media only screen and (max-width:768px)and (min-width: 0px){
+	#logo_title p{
+		font-size: 16px;
+	}
+	
+	#header_nav{
+		display: none;		
+		font-size:150%;
+	}
+	#header_nav dl dd{
+		float: none;
+		display:block;
+		width: 30%;
+		line-height:20px;
+	}	
+	#header_nav dl dd:hover{
+		float: none;
+		display:block;
+		width: 32%;
+	}	
+#show_nav{
+	display:block;			
+	}
+	
+}
